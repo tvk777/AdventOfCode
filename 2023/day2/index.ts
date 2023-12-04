@@ -46,7 +46,7 @@ const solutionPart1 = (input: string[][]): number => {
 
 //console.log(solutionPart1(input));
 
-const solutionPart2 = (input: string[][]): any => {
+const solutionPart2 = (input: string[][]): number => {
   const games: number[] = [];
 
   input.forEach((game) => {
